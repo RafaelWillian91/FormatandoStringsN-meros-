@@ -9,7 +9,8 @@ public class FormattApp5 {
 
         double d = 320320323.9998;
 
-        NumberFormat nf = NumberFormat.getInstance();
+        NumberFormat nf = NumberFormat.getInstance(); //
+        //NumberFormat nf = NumberFormat.getCurrencyInstance();
         System.out.println(nf.format(d));
 
         nf.setGroupingUsed(false);
